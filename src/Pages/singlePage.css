@@ -1,0 +1,20 @@
+.single__page{
+    margin:50px 20%;
+    align-items: center;
+    align-content: center;
+}
+.single__page img{
+    width: 100%;
+    margin: 20px 0;
+    height: 500px;
+    align-items: center;
+}
+@media (max-width: 480px){
+    .sinlepage{
+        width:60%;
+    }
+    .single__page img{
+        width:50%;
+        height:45vh;
+    }
+}
